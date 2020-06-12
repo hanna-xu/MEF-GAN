@@ -2,7 +2,7 @@
 This is the code for multi-exposure image fusion via generative adversarial networks
 
 ## Architecture:<br>
-<div align=center><img src="https://github.com/hanna-xu/FusionDN/blob/master/imgs/procedure.jpg" width="440" height="290"/></div><br>
+<div align=center><img src="https://github.com/hanna-xu/MEF-GAN/blob/master/imgs/Architecture.png" width="480" height="290"/></div><br>
 
 ## Fused results:<br>
 <div align=center><img src="https://github.com/hanna-xu/FusionDN/blob/master/imgs/res1.jpg" width="900" height="490"/></div>
