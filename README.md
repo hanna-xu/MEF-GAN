@@ -18,6 +18,7 @@ Large files should be downloaded separately, including the following files: <br>
 #### For training:<br>
 * [Training dataset](https://pan.baidu.com/s/18hQyGNlhVb3oXAXOJ5LZCQ)<br>
 The code to create your own training dataset can be found [*here*](https://github.com/hanna-xu/utils).
+The multi-exposure image pairs can be downloaded [*here*](https://github.com/csjcai/SICE). 
 
 #### For testing:<br>
 * [Trained model](https://pan.baidu.com/s/1zH6DC0N78Mw2jvPRB2I6HA)<br>
