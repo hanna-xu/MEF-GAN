@@ -1,5 +1,5 @@
 # MEF-GAN
-This is the code for multi-exposure image fusion via generative adversarial networks
+This is the code for "multi-exposure image fusion via generative adversarial networks".
 
 ## Architecture:<br>
 <div align=center><img src="https://github.com/hanna-xu/MEF-GAN/blob/master/imgs/Architecture.png" width="740" height="320"/></div><br>
