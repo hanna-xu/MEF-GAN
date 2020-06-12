@@ -15,14 +15,10 @@ CUDA_VISIBLE_DEVICES=0,1 python main.py <br>
 CUDA_VISIBLE_DEVICES=0,1 python test_main.py<br>
 
 ## Tips:<br>
-Large files should be downloaded separately, including the following files: <br>
-#### For training:<br>
-* [Training dataset](https://pan.baidu.com/s/18hQyGNlhVb3oXAXOJ5LZCQ)<br>
+The training dataset is too large to be uploaded and downloaded. It may be more convenient to create your own dataset. <br>
 The code to create your own training dataset can be found [*here*](https://github.com/hanna-xu/utils).<br>
 The multi-exposure image pairs can be downloaded [*here*](https://github.com/csjcai/SICE). 
 
-#### For testing:<br>
-* [Trained model](https://pan.baidu.com/s/1zH6DC0N78Mw2jvPRB2I6HA)<br>
 
 If you have any question, please email to me (xu_han@whu.edu.cn).
 
