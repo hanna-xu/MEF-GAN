@@ -8,10 +8,10 @@ This is the code for multi-exposure image fusion via generative adversarial netw
 <div align=center><img src="https://github.com/hanna-xu/MEF-GAN/blob/master/imgs/results.png" width="700" height="390"/></div>
 
 ## To train:<br>
-CUDA_VISIBLE_DEVICES=0,1 python main.py (2 GPUs are needed)<br><br>
+CUDA_VISIBLE_DEVICES=0,1 python main.py (2 GPUs are needed. One is for the self-attention block and the other one is for other blocks and the discriminator.)<br>
 
 ## To test:<br>
-CUDA_VISIBLE_DEVICES=0 python test_main.py<br><br>
+CUDA_VISIBLE_DEVICES=0,1 python test_main.py<br>
 
 ## Tips:<br>
 Large files should be downloaded separately, including the following files: <br>
