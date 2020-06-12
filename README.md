@@ -5,7 +5,7 @@ This is the code for multi-exposure image fusion via generative adversarial netw
 <div align=center><img src="https://github.com/hanna-xu/MEF-GAN/blob/master/imgs/Architecture.png" width="740" height="320"/></div><br>
 
 ## Fused results:<br>
-<div align=center><img src="https://github.com/hanna-xu/MEF-GAN/blob/master/imgs/results.png" width="800" height="400"/></div>
+<div align=center><img src="https://github.com/hanna-xu/MEF-GAN/blob/master/imgs/results.png" width="780" height="420"/></div>
 
 ## To train:<br>
 CUDA_VISIBLE_DEVICES=0,1 python main.py (2 GPUs are needed)<br><br>
