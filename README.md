@@ -16,9 +16,9 @@ CUDA_VISIBLE_DEVICES=0,1 python test_main.py<br>
 
 ## Tips:<br>
 The training dataset is too large to be uploaded and downloaded. It may be more convenient to create your own dataset. <br>
+The multi-exposure image pairs can be downloaded [*here*](https://github.com/csjcai/SICE). <br>
 The code to create your own training dataset can be found [*here*](https://github.com/hanna-xu/utils).<br>
-The multi-exposure image pairs can be downloaded [*here*](https://github.com/csjcai/SICE). 
-
+(size_input=144. The channel dimension: 1:3 over-exposed patches, 4:6 under-exposed patches, 7:9 ground-truth patches.)
 
 If you have any question, please email to me (xu_han@whu.edu.cn).
 
