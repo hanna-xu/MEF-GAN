@@ -1,15 +1,8 @@
 # MEF-GAN
 This is the code for multi-exposure image fusion via generative adversarial networks
 
-# FusionDN<br>
-This is the code of the following paper (tensorflow):<br>
-
-## Framework:<br>
- Overall procedure:<br>
+## Architecture:<br>
 <div align=center><img src="https://github.com/hanna-xu/FusionDN/blob/master/imgs/procedure.jpg" width="440" height="290"/></div><br>
-
-Intuitive description of data flow and the process of EWC:<br>
-<div align=center><img src="https://github.com/hanna-xu/FusionDN/blob/master/imgs/MultiTask.jpg" width="510" height="200"/></div><br>
 
 ## Fused results:<br>
 <div align=center><img src="https://github.com/hanna-xu/FusionDN/blob/master/imgs/res1.jpg" width="900" height="490"/></div>
