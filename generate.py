@@ -47,8 +47,10 @@ def generate(oe_path, ue_path, model_path, index, output_path = None, format=Non
 	print('oe img shape', oe_img.shape)
 
 	start=time.time()
+	
+	config_settion = tf.ConfigProto(allow_soft_placement=True, log_device_placement=True)
 
-	with tf.Graph().as_default(), tf.Session() as sess:
+	with tf.Graph().as_default(), tf.Session(config=config_settion) as sess:
 		SOURCE_oe = tf.placeholder(tf.float32, shape = shape, name = 'SOURCE_oe')
 		SOURCE_ue = tf.placeholder(tf.float32, shape = shape, name = 'SOURCE_ue')
 
